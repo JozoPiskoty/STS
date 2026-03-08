@@ -45,7 +45,7 @@ textarea{
 <body>
 
 <h1>Využitie znalostí z konceptuálneho slovníka</h1>
-<p><b>Školiteľ:</b> </p>
+<p><b>Školiteľ: Ing. Lukáš Radoský</b> </p>
 
 
 <div class="section">
