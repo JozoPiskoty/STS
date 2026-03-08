@@ -95,9 +95,11 @@ Práca využíva štruktúrované znalosti z konceptuálneho slovníka, ktoré u
 
 <p><b>24.2</b></p>
 <p>Stretnutie so školitelom</p>
+<p>Pridanie cachovania</p>
 
 <p><b>3.3</b></p>
 <p>Stretnutie so školitelom</p>
+<p>Ukladanie stromov do json súborov</p>
 
 
 
