@@ -94,14 +94,20 @@ Práca využíva štruktúrované znalosti z konceptuálneho slovníka, ktoré u
 <h2>Týždenný denník</h2>
 
 <p><b>24.2</b></p>
-<p>Stretnutie so školitelom</p>
-<p>Pridanie cachovania</p>
+<p>Stretnutie so školiteľom</p>
+<p>Implementácia cachovania pre lemy a koncepty. Výsledky API volaní sa ukladajú do lokálnych JSON súborov, čím sa zabraňuje opakovanému sťahovaniu rovnakých dát. Tento prístup výrazne zrýchľuje spracovanie viet a znižuje závislosť od externého API.</p>
 
 <p><b>3.3</b></p>
-<p>Stretnutie so školitelom</p>
-<p>Ukladanie stromov do json súborov</p>
+<p>Stretnutie so školiteľom</p>
+<p>Ukladanie vytvorených stromových štruktúr konceptov do JSON súborov. Stromy reprezentujú hierarchiu pojmov získaných z konceptuálneho slovníka a ich uloženie umožňuje ich neskoršiu analýzu, vizualizáciu a opätovné použitie bez nutnosti opakovaného vytvárania.</p>
 
+<p><b>10.3</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Konzultácia k príprave odborného článku na konferenciu <a href="https://innovaite.sk/" target="_blank">InnovaITE</a> v Žiline. Diskusia sa zamerala na štruktúru článku, formuláciu cieľov a prezentáciu dosiahnutých výsledkov.</p>
 
+<p><b>17.3</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Diskusia o rôznych stratégiách výpočtu sémantickej podobnosti. Boli navrhnuté a implementované viaceré prístupy porovnávania slov (one-to-many, all-to-all) a agregačné metódy (max, priemer, minimum) na úrovni slov aj viet. Taktiež boli skúmané symetrické varianty porovnania a rôzne váhovacie schémy.</p>
 
 </div>
 
