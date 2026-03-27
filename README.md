@@ -68,13 +68,30 @@ textarea{
 <div class="section">
 
 <h2>Základné informácie</h2>
-<p>Bakalárska práca sa zaoberá výpočtom sémantickej podobnosti medzi vetami pomocou znalostí z konceptuálneho slovníka. Sémantická podobnosť vyjadruje mieru významovej blízkosti medzi textami a umožňuje určiť, do akej miery dva texty vyjadrujú rovnaký alebo podobný význam.
 
-Pri spracovaní viet sa najskôr vykoná lematizácia slov, aby sa získali ich základné tvary. Následne sa pre jednotlivé lemy vyhľadajú zodpovedajúce koncepty v konceptuálnom slovníku. Na základe týchto konceptov sa vytvorí sémantická reprezentácia viet, ktorá umožňuje analyzovať vzťahy medzi jednotlivými pojmami.
+<p>Bakalárska práca sa zaoberá výpočtom sémantickej podobnosti medzi vetami s využitím znalostí z konceptuálneho slovníka. Sémantická podobnosť predstavuje mieru významovej blízkosti medzi textami a umožňuje určiť, do akej miery dva texty vyjadrujú rovnaký alebo podobný význam.</p>
 
-Podobnosť medzi konceptmi sa určuje pomocou metódy Wu–Palmer, ktorá hodnotí ich vzdialenosť v hierarchickej štruktúre konceptov. Výsledná podobnosť viet sa vypočíta porovnaním konceptov z oboch viet a agregáciou získaných hodnôt do jedného výsledného skóre.
+<p>Spracovanie viet pozostáva z viacerých krokov. Najskôr sa vykoná lematizácia vstupných viet, čím sa získajú základné tvary slov. Pre jednotlivé lemy sa následne získavajú koncepty a ich vzťahy z externého konceptuálneho slovníka. Na základe týchto údajov sa pre každú dvojicu viet konštruuje stromová štruktúra reprezentujúca hierarchiu pojmov.</p>
 
-Práca využíva štruktúrované znalosti z konceptuálneho slovníka, ktoré umožňujú interpretovateľné a efektívne hodnotenie sémantickej podobnosti medzi textami.</p>
+<p>Podobnosť medzi jednotlivými pojmami je určovaná pomocou metódy Wu–Palmer, ktorá vychádza z hĺbky pojmov v hierarchii a ich najbližšieho spoločného predka. Výsledná podobnosť viet sa vypočíta kombináciou podobností medzi slovami oboch viet.</p>
+
+<p>V práci sú implementované viaceré stratégie porovnávania slov, ako napríklad one-to-many a all-to-all prístup. Tieto stratégie sú doplnené o rôzne agregačné metódy (maximum, priemer, minimum), ktoré sa aplikujú na úrovni jednotlivých slov aj celej vety. Okrem toho sa skúmajú aj symetrické varianty porovnávania viet a rôzne váhovacie schémy, vrátane exponenciálneho váhovania a váhovania podľa pozície slov.</p>
+
+<p>Cieľom implementácie je experimentálne porovnať jednotlivé kombinácie týchto prístupov a vyhodnotiť ich kvalitu pomocou korelácie s referenčnými ľudskými hodnoteniami. Práca tak poskytuje prehľad o vplyve jednotlivých komponentov na výslednú kvalitu výpočtu sémantickej podobnosti.</p>
+
+</div>
+
+<div class="section">
+
+<h2>Navrhnutý prístup</h2>
+
+<p>Navrhnutý prístup vychádza z využitia znalostí z konceptuálneho slovníka na výpočet sémantickej podobnosti medzi vetami. Vstupné vety sú najskôr transformované na množinu lematizovaných slov, ku ktorým sa následne získavajú zodpovedajúce koncepty prostredníctvom API konceptuálneho slovníka.</p>
+
+<p>Na základe získaných konceptov sa pre každú dvojicu viet dynamicky konštruuje sémantická stromová štruktúra. Tento strom obsahuje iba relevantné koncepty a ich vzťahy, čím sa znižuje jeho veľkosť a zvyšuje efektivita spracovania.</p>
+
+<p>Podobnosť medzi jednotlivými konceptmi sa počíta pomocou metódy Wu–Palmer, ktorá zohľadňuje hĺbku konceptov v hierarchii a ich najbližšieho spoločného predka. Výsledná podobnosť viet sa získava pomocou stratégie best-match, kde sa pre každý koncept z prvej vety hľadá najpodobnejší koncept v druhej vete a tieto hodnoty sa následne agregujú.</p>
+
+<p>Implementácia bola rozšírená o viaceré varianty porovnávania a agregácie, ktoré umožňujú experimentálne skúmať vplyv jednotlivých komponentov na výslednú kvalitu modelu.</p>
 
 </div>
 
@@ -83,6 +100,18 @@ Práca využíva štruktúrované znalosti z konceptuálneho slovníka, ktoré u
 
 <h2>Zdroje</h2>
 <ul>
+
+<li>Wu, Z., Palmer, M. (1994). Verb semantics and lexical selection.</li>
+
+<li>Rada, R., Mili, H., Bicknell, E., Blettner, M. (1989). Development and application of a metric on semantic nets.</li>
+
+<li>Leacock, C., Chodorow, M. (1998). Combining local context and WordNet similarity for word sense identification.</li>
+
+<li>Blšták, M. Slovak Conceptual Dictionary. Dostupné online: https://arxiv.org/abs/2512.00579</li>
+
+<li>Marelli, M. et al. (2014). A SICK cure for the evaluation of compositional distributional semantic models.</li>
+
+<li>Radoský, L. et al. Approaches to semantic textual similarity in Slovak language: From algorithms to transformers.</li>
 
 </ul>
 
