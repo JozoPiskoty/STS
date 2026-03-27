@@ -7,36 +7,86 @@
 <style>
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 900px;
     margin:auto;
     padding:40px;
-    background:#f5f5f5;
+    background: linear-gradient(135deg, #eef2f7, #f8f9fb);
+    color:#2c3e50;
 }
 
 h1{
     margin-bottom:5px;
+    font-size:32px;
+    color:#1a237e;
+}
+
+p b{
+    color:#555;
 }
 
 .section{
     background:white;
-    padding:25px;
-    margin-top:20px;
-    border-radius:8px;
-    box-shadow:0 2px 6px rgba(0,0,0,0.05);
+    padding:30px;
+    margin-top:25px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.2s;
+}
+
+.section:hover{
+    transform: translateY(-3px);
 }
 
 h2{
     margin-top:0;
+    color:#3949ab;
+    border-bottom:2px solid #e0e0e0;
+    padding-bottom:8px;
+}
+
+h3{
+    color:#5c6bc0;
 }
 
 .subsection{
     margin-top:15px;
 }
 
+p{
+    line-height:1.6;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+a{
+    color:#1e88e5;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
 textarea{
     width:100%;
     height:120px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    padding:10px;
+    font-family:inherit;
+}
+
+.section p b{
+    display:block;
+    margin-top:15px;
+    color:#1a237e;
 }
 
 </style>
