@@ -332,6 +332,7 @@ Stiahnuť dataset
 <h2>Príklad sémantického stromu</h2>
 <img src="tree_example.png" style="width:100%; max-width:600px;">
 
+<h2>Článok ku konferencii InnovaIte</h2>
 <p>
 <a href="Exploiting conceptual dictionary for semantic textual similarity.pdf" target="_blank">
 Stiahnuť článok (PDF)
