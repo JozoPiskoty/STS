@@ -145,6 +145,43 @@ textarea{
 
 </div>
 
+<div class="section">
+    
+<h2>Materiály a výsledky</h2>
+
+<h3>Dataset</h3>
+
+<p>
+Použitý dataset: SICK-SK (Slovak STS dataset)
+</p>
+
+<p>
+<a href="sick_sk.txt" target="_blank">
+Stiahnuť dataset
+</a>
+</p>
+
+<h3>Ukážka dát</h3>
+
+<pre>
+4.5  Skupina detí sa hrá na dvore...    Skupina chlapcov na dvore...
+3.2  V dome sa hrá skupina detí...     Skupina detí sa hrá na dvore...
+</pre>
+
+<h2>Diagram prístupu</h2>
+<img src="Flowchart-Sequence diagram.drawio.png" style="width:100%; max-width:600px;">
+
+<h2>Príklad sémantického stromu</h2>
+<img src="tree_example.png" style="width:100%; max-width:600px;">
+
+<p>
+<a href="Exploiting conceptual dictionary for semantic textual similarity.pdf" target="_blank">
+Stiahnuť článok (PDF)
+</a>
+</p>
+
+</div>
+
 
 <div class="section">
 
@@ -167,13 +204,7 @@ textarea{
 
 </div>
 
-<h2>Článok</h2>
 
-<p>
-<a href="Exploiting conceptual dictionary for semantic textual similarity.pdf" target="_blank">
-Stiahnuť článok (PDF)
-</a>
-</p>
 
 <div class="section">
 
