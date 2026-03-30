@@ -235,9 +235,11 @@ textarea:focus{
 </head>
 
 <body>
+<h1>Využitie znalostí z konceptuálneho slovníka</h1>
+
 <nav class="navbar">
     <div class="nav-container">
-        <span class="logo">BP</span>
+        <span class="logo">Navigácia</span>
         <div class="nav-links">
             <a href="#zadanie">Zadanie</a>
             <a href="#info">Informácie</a>
@@ -249,7 +251,7 @@ textarea:focus{
     </div>
 </nav>
 
-<h1>Využitie znalostí z konceptuálneho slovníka</h1>
+
 <p><b>Školiteľ: Ing. Lukáš Radoský</b> </p>
 
 
