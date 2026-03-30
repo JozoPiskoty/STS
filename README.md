@@ -6,87 +6,202 @@
 
 <style>
 
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 900px;
-    margin:auto;
-    padding:40px;
-    background: linear-gradient(135deg, #eef2f7, #f8f9fb);
-    color:#2c3e50;
+/* === GLOBAL === */
+:root{
+    --primary:#4f46e5;
+    --primary-light:#6366f1;
+    --accent:#06b6d4;
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
+    --border:#e5e7eb;
 }
 
+body{
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    max-width: 1000px;
+    margin:auto;
+    padding:50px 25px;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    color:var(--text);
+}
+
+/* === HEADER === */
 h1{
+    font-size:40px;
     margin-bottom:5px;
-    font-size:32px;
-    color:#1a237e;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:700;
 }
 
 p b{
-    color:#555;
+    color:var(--muted);
+    font-weight:500;
 }
 
+/* === CARD SECTIONS === */
 .section{
-    background:white;
-    padding:30px;
-    margin-top:25px;
-    border-radius:12px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.08);
-    transition:0.2s;
+    background:var(--card);
+    padding:35px;
+    margin-top:30px;
+    border-radius:16px;
+    border:1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: all 0.25s ease;
+    position:relative;
+    overflow:hidden;
+}
+
+/* subtle gradient border glow */
+.section::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(120deg, transparent, rgba(79,70,229,0.08), transparent);
+    opacity:0;
+    transition:0.3s;
 }
 
 .section:hover{
-    transform: translateY(-3px);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
+.section:hover::before{
+    opacity:1;
+}
+
+/* === HEADINGS === */
 h2{
     margin-top:0;
-    color:#3949ab;
-    border-bottom:2px solid #e0e0e0;
-    padding-bottom:8px;
+    font-size:22px;
+    color:var(--primary);
+    border-bottom:1px solid var(--border);
+    padding-bottom:10px;
+    position:relative;
+}
+
+h2::after{
+    content:"";
+    position:absolute;
+    bottom:-1px;
+    left:0;
+    width:60px;
+    height:3px;
+    background:var(--primary);
+    border-radius:2px;
 }
 
 h3{
-    color:#5c6bc0;
+    color:var(--primary-light);
+    margin-bottom:8px;
+}
+
+/* === TEXT === */
+p{
+    line-height:1.75;
+    color:var(--text);
 }
 
 .subsection{
-    margin-top:15px;
+    margin-top:18px;
 }
 
-p{
-    line-height:1.6;
-}
-
+/* === LISTS === */
 ul{
     padding-left:20px;
 }
 
 li{
-    margin-bottom:8px;
+    margin-bottom:10px;
+    color:var(--muted);
 }
 
+/* === LINKS === */
 a{
-    color:#1e88e5;
+    color:var(--primary);
     text-decoration:none;
+    font-weight:500;
+    position:relative;
 }
 
-a:hover{
-    text-decoration:underline;
+a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    width:0%;
+    height:2px;
+    background:var(--primary);
+    transition:0.3s;
 }
 
+a:hover::after{
+    width:100%;
+}
+
+/* === CODE BLOCK === */
+pre{
+    background:#0f172a;
+    color:#e2e8f0;
+    padding:15px;
+    border-radius:10px;
+    overflow:auto;
+    font-size:14px;
+}
+
+/* === IMAGES === */
+img{
+    border-radius:12px;
+    margin-top:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+img:hover{
+    transform:scale(1.02);
+}
+
+/* === TEXTAREA === */
 textarea{
     width:100%;
     height:120px;
-    border-radius:8px;
-    border:1px solid #ccc;
-    padding:10px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    padding:12px;
     font-family:inherit;
+    transition:0.2s;
 }
 
+textarea:focus{
+    outline:none;
+    border-color:var(--primary);
+    box-shadow:0 0 0 3px rgba(79,70,229,0.15);
+}
+
+/* === EMPHASIS BLOCK TEXT === */
 .section p b{
     display:block;
     margin-top:15px;
-    color:#1a237e;
+    color:var(--primary);
+    font-weight:600;
+}
+
+/* === SMALL DETAIL: SCROLLBAR (optional cool factor) === */
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgba(0,0,0,0.2);
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:rgba(0,0,0,0.35);
 }
 
 </style>
