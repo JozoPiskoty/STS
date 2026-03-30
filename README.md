@@ -6,7 +6,6 @@
 
 <style>
 
-/* === GLOBAL === */
 :root{
     --primary:#4f46e5;
     --primary-light:#6366f1;
@@ -27,7 +26,6 @@ body{
     color:var(--text);
 }
 
-/* === HEADER === */
 h1{
     font-size:40px;
     margin-bottom:5px;
@@ -42,7 +40,6 @@ p b{
     font-weight:500;
 }
 
-/* === CARD SECTIONS === */
 .section{
     background:var(--card);
     padding:35px;
@@ -55,7 +52,6 @@ p b{
     overflow:hidden;
 }
 
-/* subtle gradient border glow */
 .section::before{
     content:"";
     position:absolute;
@@ -65,16 +61,7 @@ p b{
     transition:0.3s;
 }
 
-.section:hover{
-    transform: translateY(-6px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
-}
 
-.section:hover::before{
-    opacity:1;
-}
-
-/* === HEADINGS === */
 h2{
     margin-top:0;
     font-size:22px;
@@ -100,7 +87,7 @@ h3{
     margin-bottom:8px;
 }
 
-/* === TEXT === */
+
 p{
     line-height:1.75;
     color:var(--text);
@@ -110,7 +97,6 @@ p{
     margin-top:18px;
 }
 
-/* === LISTS === */
 ul{
     padding-left:20px;
 }
@@ -120,7 +106,7 @@ li{
     color:var(--muted);
 }
 
-/* === LINKS === */
+
 a{
     color:var(--primary);
     text-decoration:none;
@@ -143,7 +129,6 @@ a:hover::after{
     width:100%;
 }
 
-/* === CODE BLOCK === */
 pre{
     background:#0f172a;
     color:#e2e8f0;
@@ -153,7 +138,6 @@ pre{
     font-size:14px;
 }
 
-/* === IMAGES === */
 img{
     border-radius:12px;
     margin-top:10px;
@@ -165,7 +149,6 @@ img:hover{
     transform:scale(1.02);
 }
 
-/* === TEXTAREA === */
 textarea{
     width:100%;
     height:120px;
@@ -182,7 +165,6 @@ textarea:focus{
     box-shadow:0 0 0 3px rgba(79,70,229,0.15);
 }
 
-/* === EMPHASIS BLOCK TEXT === */
 .section p b{
     display:block;
     margin-top:15px;
@@ -190,7 +172,7 @@ textarea:focus{
     font-weight:600;
 }
 
-/* === SMALL DETAIL: SCROLLBAR (optional cool factor) === */
+
 ::-webkit-scrollbar{
     width:8px;
 }
@@ -204,16 +186,74 @@ textarea:focus{
     background:rgba(0,0,0,0.35);
 }
 
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.7);
+    border-bottom:1px solid var(--border);
+}
+
+.nav-container{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 25px;
+}
+
+.logo{
+    font-weight:700;
+    color:var(--primary);
+}
+
+.nav-links a{
+    margin-left:20px;
+    color:var(--text);
+    font-size:14px;
+}
+
+.nav-links a.active{
+    color:var(--primary);
+    font-weight:600;
+}
+
+.hidden{
+    opacity:0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.visible{
+    opacity:1;
+    transform: translateY(0);
+}
+
 </style>
 </head>
 
 <body>
+<nav class="navbar">
+    <div class="nav-container">
+        <span class="logo">BP</span>
+        <div class="nav-links">
+            <a href="#zadanie">Zadanie</a>
+            <a href="#info">Informácie</a>
+            <a href="#pristup">Prístup</a>
+            <a href="#vysledky">Výsledky</a>
+            <a href="#zdroje">Zdroje</a>
+            <a href="#dennik">Denník</a>
+        </div>
+    </div>
+</nav>
 
 <h1>Využitie znalostí z konceptuálneho slovníka</h1>
 <p><b>Školiteľ: Ing. Lukáš Radoský</b> </p>
 
 
-<div class="section">
+<div class="section" id="zadanie">
 
 <h2>Zadanie</h2>
 
@@ -230,7 +270,7 @@ textarea:focus{
 </div>
 
 
-<div class="section">
+<div class="section" id="info">
 
 <h2>Základné informácie</h2>
 
@@ -246,7 +286,7 @@ textarea:focus{
 
 </div>
 
-<div class="section">
+<div class="section" id="pristup">
 
 <h2>Navrhnutý prístup</h2>
 
@@ -260,7 +300,7 @@ textarea:focus{
 
 </div>
 
-<div class="section">
+<div class="section" id="vysledky">
     
 <h2>Materiály a výsledky</h2>
 
@@ -298,7 +338,7 @@ Stiahnuť článok (PDF)
 </div>
 
 
-<div class="section">
+<div class="section" id="zdroje">
 
 <h2>Zdroje</h2>
 <ul>
@@ -321,7 +361,7 @@ Stiahnuť článok (PDF)
 
 
 
-<div class="section">
+<div class="section" id="dennik">
 
 <h2>Týždenný denník</h2>
 
@@ -347,6 +387,6 @@ Stiahnuť článok (PDF)
 
 </div>
 
-
+<script src="script.js"></script>
 </body>
 </html>
