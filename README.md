@@ -169,7 +169,7 @@ Stiahnuť dataset
 </pre>
 
 <h2>Diagram prístupu</h2>
-<img src="Flowchart-Sequence diagram.drawio.png" style="width:100%; max-width:600px;">
+<img src="Flowchart-Sequence diagram.drawio.png" style="width:30%; max-width:600px;">
 
 <h2>Príklad sémantického stromu</h2>
 <img src="tree_example.png" style="width:100%; max-width:600px;">
