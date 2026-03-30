@@ -196,12 +196,15 @@ width:100%;
 }
 
 pre{
-background:#0f172a;
-color:#e2e8f0;
-padding:15px;
-border-radius:10px;
-overflow:auto;
-font-size:14px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color:#f8fafc;
+    padding:18px;
+    border-radius:14px;
+    overflow:auto;
+    font-size:14px;
+    line-height:1.6;
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 img{
