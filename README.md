@@ -167,6 +167,13 @@ textarea{
 
 </div>
 
+<h2>Článok</h2>
+
+<p>
+<a href="Exploiting conceptual dictionary for semantic textual similarity.pdf" target="_blank">
+Stiahnuť článok (PDF)
+</a>
+</p>
 
 <div class="section">
 
@@ -187,6 +194,10 @@ textarea{
 <p><b>17.3</b></p>
 <p>Stretnutie so školiteľom</p>
 <p>Diskusia o rôznych stratégiách výpočtu sémantickej podobnosti. Boli navrhnuté a implementované viaceré prístupy porovnávania slov (one-to-many, all-to-all) a agregačné metódy (max, priemer, minimum) na úrovni slov aj viet. Taktiež boli skúmané symetrické varianty porovnania a rôzne váhovacie schémy.</p>
+
+<p><b>27.3</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Na základe konzultácie boli upravené a rozšírené navrhované prístupy a stratégie riešenia.</p>
 
 </div>
 
