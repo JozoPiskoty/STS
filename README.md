@@ -433,6 +433,26 @@ Stiahnuť článok (PDF)
 <p>Stretnutie so školiteľom</p>
 <p>Na základe konzultácie boli upravené a rozšírené navrhované prístupy a stratégie riešenia.</p>
 
+<p><b>8.4</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Konzultácia zameraná na možnosti zlepšenia dosahovaných výsledkov modelu. Diskusia sa týkala úprav stratégií porovnávania viet, agregačných metód a spôsobov váhovania pri výpočte sémantickej podobnosti.</p>
+
+<p><b>17.4</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Prezentácia rozšírenej implementácie systému. Do aplikácie boli doplnené nové prístupy porovnávania a konfigurácie výpočtu sémantickej podobnosti vrátane viacerých variantov agregácie a smerov porovnávania viet.</p>
+
+<p><b>24.4</b></p>
+<p>Stretnutie so školiteľom</p>
+<p>Konzultácia k textovej časti bakalárskej práce. Bola spracovaná teoretická časť práce zameraná na konceptuálne slovníky, sémantickú podobnosť a používané metódy výpočtu podobnosti.</p>
+
+<p><b>29.4</b></p>
+<p>Účasť na konferencii InnovaITE v Žiline</p>
+<p>Prezentácia a odborné konzultácie k problematike sémantickej podobnosti textu a využitia konceptuálnych slovníkov pri spracovaní prirodzeného jazyka.</p>
+
+<p><b>7.5</b></p>
+<p>Implementácia a finalizácia systému</p>
+<p>Bolo implementované cachovanie datasetu STS Benchmark SK a doplnené rozdelenie dát pomocou stratified split. Zároveň boli dokončené korelačné matice pre experimentálne vyhodnotenie a finalizovaná implementácia systému.</p>
+
 </div>
 
 <script src="script.js"></script>
