@@ -391,17 +391,81 @@ Stiahnuť článok (PDF)
 <h2>Zdroje</h2>
 <ul>
 
+<li>Majumder, G., Pakray, P., Gelbukh, A., Pinto, D. (2016). Semantic textual similarity methods, tools, and applications: A survey.</li>
+
 <li>Wu, Z., Palmer, M. (1994). Verb semantics and lexical selection.</li>
 
-<li>Rada, R., Mili, H., Bicknell, E., Blettner, M. (1989). Development and application of a metric on semantic nets.</li>
+<li>Ferlež, J., Gams, M. (2004). Shortest-Path Semantic Distance Measure in WordNet v2.0.</li>
 
-<li>Leacock, C., Chodorow, M. (1998). Combining local context and WordNet similarity for word sense identification.</li>
+<li>Prasetya, D., Wibawa, A., Hirashima, T. (2018). The performance of text similarity algorithms.</li>
 
-<li>Blšták, M. Slovak Conceptual Dictionary. Dostupné online: https://arxiv.org/abs/2512.00579</li>
+<li>Bär, D., Biemann, C., Gurevych, I., Zesch, T. (2012). UKP: Computing semantic textual similarity by combining multiple content similarity measures.</li>
+
+<li>Šarić, F. et al. (2012). TakeLab: Systems for measuring semantic text similarity.</li>
+
+<li>Radosky, L. et al. (2026). Approaches to Semantic Textual Similarity in Slovak Language.</li>
+
+<li>Gomaa, W., Fahmy, A. (2013). A Survey of Text Similarity Approaches.</li>
+
+<li>Mihalcea, R. et al. (2006). Corpus-based and knowledge-based measures of text semantic similarity.</li>
+
+<li>Tang, X. et al. (2018). Improving multilingual semantic textual similarity.</li>
+
+<li>Ranasinghe, T. et al. (2025). MUSTS: Multilingual semantic textual similarity benchmark.</li>
+
+<li>Brychcín, T. (2020). Linear transformations for cross-lingual semantic textual similarity.</li>
+
+<li>Agirre, E. et al. (2015). SemEval-2015 task 2: Semantic textual similarity.</li>
+
+<li>Deerwester, S. et al. (1990). Indexing by latent semantic analysis.</li>
+
+<li>Guder, L. et al. (2026). Sentence representations for semantic textual similarity.</li>
+
+<li>Reimers, N., Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using siamese BERT-networks.</li>
+
+<li>Gao, T. et al. (2021). SimCSE: Simple contrastive learning of sentence embeddings.</li>
+
+<li>Pikuliak, M. et al. (2022). SlovakBERT: Slovak masked language model.</li>
+
+<li>Kumar, L. et al. (2025). Advances and Challenges in Semantic Textual Similarity.</li>
+
+<li>Šuppa, M. et al. (2025). skLEP: A Slovak general language understanding benchmark.</li>
+
+<li>Devlin, J. et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.</li>
+
+<li>Vaswani, A. et al. (2017). Attention is All You Need.</li>
+
+<li>Mikolov, T. et al. (2013). Efficient estimation of word representations in vector space.</li>
+
+<li>Pennington, J., Socher, R., Manning, C. (2014). GloVe: Global vectors for word representation.</li>
+
+<li>Conneau, A. et al. (2020). Unsupervised cross-lingual representation learning at scale.</li>
 
 <li>Marelli, M. et al. (2014). A SICK cure for the evaluation of compositional distributional semantic models.</li>
 
-<li>Radoský, L. et al. Approaches to semantic textual similarity in Slovak language: From algorithms to transformers.</li>
+<li>Salton, G., Buckley, C. (1988). Term-weighting approaches in automatic text retrieval.</li>
+
+<li>Leacock, C., Chodorow, M. (1998). Combining Local Context and WordNet Similarity for Word Sense.</li>
+
+<li>Levenshtein, V. I. et al. (1966). Binary codes capable of correcting deletions, insertions, and reversals.</li>
+
+<li>Hamming, R. W. (1950). Error detecting and error correcting codes.</li>
+
+<li>Winkler, W. E. (1990). String comparator metrics and enhanced decision rules in the fellegi-sunter model of record linkage.</li>
+
+<li>Jaccard, P. (1901). Étude comparative de la distribution florale dans une portion des Alpes et des Jura.</li>
+
+<li>Salton, G. (1989). Automatic text processing: The transformation, analysis, and retrieval of information.</li>
+
+<li>Deza, M. M., Deza, E. (2009). Encyclopedia of distances.</li>
+
+<li>Krause, E. F. (1973). Taxicab geometry.</li>
+
+<li>Miller, G. A. (1995). WordNet: a lexical database for English.</li>
+
+<li>Blšták, M. (2025). Slovak Conceptual Dictionary.</li>
+
+<li>Pearson, K. (1895). Note on regression and inheritance in the case of two parents.</li>
 
 </ul>
 
