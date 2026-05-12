@@ -370,11 +370,27 @@ Stiahnuť dataset
 3.2  V dome sa hrá skupina detí...     Skupina detí sa hrá na dvore...
 </pre>
 
-<h2>Diagram prístupu</h2>
-<img src="Flowchart-Sequence diagram.drawio.png" style="width:40%; max-width:600px;">
+<h2>Diagramy a vizualizácie</h2>
 
-<h2>Príklad sémantického stromu</h2>
-<img src="tree_example.png" style="width:100%; max-width:600px;">
+<h3>Hierarchia konceptov</h3>
+<p>Ukážka jednoduchej hierarchie pojmov v konceptuálnom slovníku.</p>
+<img src="wordnet_tree_example.png" style="width:100%; max-width:700px;">
+
+<h3>Príklad najbližšieho spoločného predka (LCS)</h3>
+<p>Vizualizácia výpočtu najbližšieho spoločného predka medzi konceptmi v hierarchii.</p>
+<img src="lcs_example.png" style="width:100%; max-width:900px;">
+
+<h3>Lematizácia viet</h3>
+<p>Transformácia viet na množinu lematizovaných pojmov použitých pri spracovaní.</p>
+<img src="lemma_example.png" style="width:100%; max-width:800px;">
+
+<h3>Proces výpočtu podobnosti</h3>
+<p>Diagram znázorňujúci celý proces výpočtu sémantickej podobnosti medzi vetami.</p>
+<img src="pipeline.png" style="width:60%; max-width:500px;">
+
+<h3>Ukážka sémantického stromu</h3>
+<p>Príklad vytvoreného stromu konceptov získaného z konceptuálneho slovníka.</p>
+<img src="tree_example.png" style="width:100%; max-width:700px;">
 
 <h2>Článok ku konferencii InnovAIte</h2>
 <p>
