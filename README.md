@@ -372,8 +372,8 @@ Stiahnuť dataset
 
 <h2>Diagramy a vizualizácie</h2>
 
-<h3>Hierarchia konceptov</h3>
-<p>Ukážka jednoduchej hierarchie pojmov v konceptuálnom slovníku.</p>
+<h3>Ukážka WordNet stromu</h3>
+<p>Príklad hierarchickej štruktúry konceptov reprezentovanej pomocou WordNet stromu.</p>
 <img src="wordnet_tree_example.png" style="width:100%; max-width:700px;">
 
 <h3>Príklad najbližšieho spoločného predka (LCS)</h3>
